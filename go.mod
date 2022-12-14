@@ -1,3 +1,3 @@
-module gitlab.com/josebamartos/wool
+module github.com/otzarri/wool
 
 go 1.17

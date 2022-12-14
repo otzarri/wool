@@ -7,7 +7,7 @@ Worker Pool implementation for Goroutines, the name comes from the fusion of the
 Install wool:
 
 ```
-$ go get gitlab.com/josebamartos/wool
+$ go get github.com/otzarri/wool
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ import (
         "fmt"
         "strconv"
 
-        "gitlab.com/josebamartos/wool"
+        "github.com/otzarri/wool"
 )
 
 // jobFunc is a function implementation expected by `wool`. When a new job is
@@ -92,7 +92,7 @@ $ go run app.go
 The even numbers between 0 and 99 are: 0 2 4 6 8 10 20 22 24 26 12 14 18 28 30 32 34 16 36 38 40 42 44 46 48 50 52 54 56 58 60 62 74 76 78 80 82 84 64 66 68 70 72 86 88 90 92 94 96 9
 ```
 
-⭐ If you want to see `wool` working into a program, you can take a look at the [josebamartos/nscan](http://gitlab.com/josebamartos/nscan) project.
+⭐ If you want to see `wool` working into a program, you can take a look at the [otzarri/nscan](http://otzarri/nscan) project.
 
 ## Testing
 
